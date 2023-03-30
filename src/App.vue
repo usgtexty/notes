@@ -36,7 +36,7 @@
 			<div style="margin: 2em;">
 				<h2>{{ t('notes', 'Error') }}</h2>
 				<p>{{ error }}</p>
-				<p>{{ t('notes', 'Please see Nextcloud server log for details.') }}</p>
+				<p>{{ t('notes', 'Please see bitnext server log for details.') }}</p>
 			</div>
 		</NcAppContent>
 		<router-view v-else />

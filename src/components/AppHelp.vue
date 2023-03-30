@@ -63,9 +63,6 @@
 					</tr>
 				</table>
 			</NcAppSettingsSection>
-			<NcAppSettingsSection id="help-apps" :title="t('notes', 'Mobile apps')">
-				<HelpMobile />
-			</NcAppSettingsSection>
 		</NcAppSettingsDialog>
 	</div>
 </template>
@@ -78,14 +75,12 @@ import {
 } from '@nextcloud/vue'
 
 import CreateSampleButton from './CreateSampleButton.vue'
-import HelpMobile from './HelpMobile.vue'
 
 export default {
 	name: 'AppHelp',
 
 	components: {
 		CreateSampleButton,
-		HelpMobile,
 		NcAppSettingsDialog,
 		NcAppSettingsSection,
 	},
