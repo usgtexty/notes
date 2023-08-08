@@ -35,7 +35,7 @@ export const getDefaultSampleNoteTitle = () => {
 export const getDefaultSampleNote = () => {
 	return '# ' + getDefaultSampleNoteTitle() + `
 
-* 📅 ` + t('notes', '15 January 2021, via Nextcloud Notes') + `
+* 📅 ` + t('notes', '15 January 2021, via bitnext Notes') + `
 * 👥 ` + t('notes', 'Me, you, and all our friends!') + `
 
 ## ` + t('notes', 'Tasks') + ` ✅
@@ -58,6 +58,6 @@ export const getDefaultSampleNote = () => {
 
 ## ` + t('notes', 'Quotes') + ` 💬
 
-> ` + t('notes', 'Nextcloud, a safe home for all your data') + `
+> ` + t('notes', 'bitnext, a safe home for all your data') + `
 `
 }
