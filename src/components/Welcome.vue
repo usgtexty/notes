@@ -23,7 +23,6 @@
 			<div class="feature icon-files-dark">
 				{{ t('notes', 'Organize your notes in categories.') }}
 			</div>
-			<HelpMobile />
 		</div>
 	</NcAppContent>
 </template>
@@ -37,7 +36,6 @@ import {
 import PlusIcon from 'vue-material-design-icons/Plus.vue'
 
 import CreateSampleButton from './CreateSampleButton.vue'
-import HelpMobile from './HelpMobile.vue'
 
 import { createNote } from '../NotesService.js'
 
@@ -46,7 +44,6 @@ export default {
 
 	components: {
 		CreateSampleButton,
-		HelpMobile,
 		NcAppContent,
 		NcButton,
 		PlusIcon,

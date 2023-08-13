@@ -232,7 +232,7 @@ export default {
 			fetchNote(parseInt(this.noteId))
 				.then((note) => {
 					if (note.error) {
-						showError(t('notes', 'Error from Nextcloud server: {msg}', { msg: note.errorType }))
+						showError(t('notes', 'Error from bitnext server: {msg}', { msg: note.errorType }))
 					}
 					this.startRefreshTimer()
 				})

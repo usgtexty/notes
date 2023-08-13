@@ -72,9 +72,6 @@
 				</tr>
 			</table>
 		</NcAppSettingsSection>
-		<NcAppSettingsSection id="help-apps" :title="t('notes', 'Mobile apps')">
-			<HelpMobile />
-		</NcAppSettingsSection>
 	</NcAppSettingsDialog>
 </template>
 
@@ -88,7 +85,6 @@ import { FilePicker, FilePickerType } from '@nextcloud/dialogs'
 
 import { setSettings } from '../NotesService.js'
 import store from '../store.js'
-import HelpMobile from './HelpMobile.vue'
 
 export default {
 	name: 'AppSettings',
@@ -96,7 +92,6 @@ export default {
 	components: {
 		NcAppSettingsDialog,
 		NcAppSettingsSection,
-		HelpMobile,
 	},
 
 	props: {
